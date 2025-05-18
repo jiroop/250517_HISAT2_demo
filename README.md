@@ -1,4 +1,4 @@
-# Demo RNA-seq mapping pipeline that uses HISAT2 to make a small set of SE reads
+# Demo RNA-seq mapping pipeline that uses HISAT2 to map a small set of SE reads
 
 ## Features
 - Assess read quality with FASTQC
@@ -10,14 +10,16 @@
 
 ## Installation
 
-git clone https://github.com/jiroop/250517_HISAT2_demo.git
+git clone https://github.com/jiroop/250517_HISAT2_demo.git  
 cd 250517_HISAT2_demo
+
+## Usage
 
 #### Download the fastq readfile and place it in the "data" directory
 https://drive.usercontent.google.com/download?id=1DGHjbhcRy_zTm6H9C_AUpkzBML-JhtA3&export=download&authuser=0
 
 #### Create conda environment
-conda env create -f environment.yml
+conda env create -f environment.yml  
 conda activate 250512_RNA-seq_tutorial
 
 #### Run the analysis script
