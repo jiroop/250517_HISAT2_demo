@@ -1,0 +1,31 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Conda environment
+/env/
+
+# Downloaded data
+*.fastq.gz
+*.fastq
+*.gtf
+
+# Genome indices and assocaited files
+*.tar.gz
+*.ht2
+
+# Output directories
+/quants/
+/HISAT2/
+
+# Log files
+*.log
+
+# Large files and output files
+*.tar.gz
+*.zip
+*.html
+*.bam
+*trimmed.fastq
+*featurescounts.txt*
+*/make_grch38.sh
